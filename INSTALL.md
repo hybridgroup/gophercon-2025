@@ -5,8 +5,8 @@
 First use git to clone this repo to your local machine:
 
 ```
-git clone https://github.com/hybridgroup/gopherconeu-2025.git
-cd gopherconeu-2025
+git clone https://github.com/hybridgroup/gophercon-2025.git
+cd gophercon-2025
 ```
 
 ## Install Go 1.24

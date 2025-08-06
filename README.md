@@ -1,10 +1,10 @@
-# Gophercon EU 2025 Hardware Hack Session
+# Gophercon 2025 Hardware Hack Session
 
-![Gophercon EU logo](./images/gophercon-eu-logo.png)
+![Gophercon logo](./images/gophercon-logo.png)
 
-The is the repository for the hardware hack session at Gophercon EU 2025.
+The is the repository for the hardware hack session at Gophercon 2025.
 
-https://www.gophercon.eu/
+https://www.gophercon.com/
 
 ### Please return all equipment when you are finished for the next person. Thank you!
 
@@ -42,7 +42,7 @@ Ready to Go wireless? Click on [./bluetooth/arduino/](./bluetooth/arduino/) to g
 
 We have Parrot Minidrones you can fly with Go code to control them using their built-in Bluetooth API.
 
-Post in-flight videos using hashtag #gopherconeu
+Post in-flight videos using hashtag #gophercon
 
 Ready for takeoff? Go to [./drone/minidrone/](./drone/minidrone/).
 
@@ -52,17 +52,9 @@ Ready for takeoff? Go to [./drone/minidrone/](./drone/minidrone/).
 
 Along for the ride, we brought a couple of WowWee MiP two-wheeled self-balancing robots that you control using Bluetooth.
 
-Post robot videos using hashtag #gopherconeu
+Post robot videos using hashtag #gophercon
 
 Ready to roll? Go to https://github.com/hybridgroup/tinygo-mip.
-
-### TinyGo Open LED Race
-
-![TinyGo OpenLEDRace](./images/ledrace-input2.gif)
-
-Minimalist race game with an LED strip.
-
-For more information, please go to https://github.com/conejoninja/ledrace
 
 ## License
 

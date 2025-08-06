@@ -1,4 +1,4 @@
-module github.com/hybridgroup/gopherconeu-2025/bluetooth/arduino
+module github.com/hybridgroup/gophercon-2025/bluetooth/arduino
 
 go 1.22.1
 
