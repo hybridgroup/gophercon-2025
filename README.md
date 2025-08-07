@@ -44,7 +44,7 @@ We have Parrot Minidrones you can fly with Go code to control them using their b
 
 Post in-flight videos using hashtag #gophercon
 
-Ready for takeoff? Go to [./drone/minidrone/](./drone/minidrone/).
+Ready for takeoff? Go to [https://github.com/hybridgroup/tinygo-minidrone](https://github.com/hybridgroup/tinygo-minidrone).
 
 ### WowWee MiP robots
 
