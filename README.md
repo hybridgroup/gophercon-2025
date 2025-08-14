@@ -28,7 +28,7 @@ There are some Grove sensor kits that you can use for the activity.
 
 Ready to try this out? Go to [./sensor/arduino/](./sensor/arduino/) to get started.
 
-### Bluetooth Sensor
+### TinyGo Bluetooth Sensor
 
 [![Go Bluetooth](./images/gobluetooth.png)](https://tinygo.org/bluetooth)
 
@@ -55,6 +55,26 @@ Along for the ride, we brought a couple of WowWee MiP two-wheeled self-balancing
 Post robot videos using hashtag #gophercon
 
 Ready to roll? Go to https://github.com/hybridgroup/tinygo-mip.
+
+### Sphero Mini robots
+
+![Sphero Mini](./images/sphero-mini.png)
+
+You need more robots? Of course you do! We brought a few Sphero Mini ball-shaped robots that you control using Bluetooth.
+
+Post robot videos using hashtag #gophercon
+
+Keep on rolling at https://github.com/hybridgroup/tinygo-sphero.
+
+### Skynet
+
+<img src="https://github.com/hybridgroup/skynet/raw/main/images/skynet-minidrone.gif" style="width: 840px; min-width: 640px;" />
+
+Now you are ready to give some intelligence to the machines with Skynet! Skynet is a lightweight command line interface for LLMs to control real robots and drones using Bash from your own machine.
+
+Post robot videos using hashtag #gophercon
+
+Start the robot takeover at https://github.com/hybridgroup/skynet.
 
 ## License
 
