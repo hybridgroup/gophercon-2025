@@ -72,6 +72,8 @@ Keep on rolling at https://github.com/hybridgroup/tinygo-sphero.
 
 Now you are ready to give some intelligence to the machines with Skynet! Skynet is a lightweight command line interface for LLMs to control real robots and drones using Bash from your own machine.
 
+You can use Skynet to control either the MiP or the Minidrone.
+
 Post robot videos using hashtag #gophercon
 
 Start the robot takeover at https://github.com/hybridgroup/skynet.
