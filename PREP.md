@@ -1,22 +1,10 @@
 # Preparation checklist
 
-## Gopher Badges
+## Badges
 
-Please add whatever checklist items needed here...
+TBD
 
 ## Drones
-
-### Tello
-
-- [ ] batteries
-- [ ] chargers
-- [ ] test joysticks
-- [ ] verify video
-- [ ] flightbadge
-- [ ] OS check
-    - [ ] Linux
-    - [ ] macOS
-    - [ ] Windows
 
 ### Minidrone
 
@@ -25,17 +13,6 @@ Please add whatever checklist items needed here...
 - [ ] complete steps 2-5+
 - [ ] test joysticks
 - [ ] flightbadge
-- [ ] OS check
-    - [ ] Linux
-    - [ ] macOS
-    - [ ] Windows
-
-## Music Jam
-
-- [ ] update code
-- [ ] organize parts kits
-- [ ] dupont M2F cables
-- [ ] sound cables
 - [ ] OS check
     - [ ] Linux
     - [ ] macOS
@@ -53,7 +30,15 @@ Please add whatever checklist items needed here...
 
 ## Robots
 
-### Spheros
+### MiP
+
+- [ ] extra batteries
+- [ ] OS check
+    - [ ] Linux
+    - [ ] macOS
+    - [ ] Windows
+
+### Sphero Mini
 
 - [ ] check batteries
 - [ ] USB charger
@@ -66,10 +51,3 @@ Please add whatever checklist items needed here...
 
 - [ ] batteries
 - [ ] cables
-- [ ] add bluetooth tutorial/examples
-
-## Raspberry Pi "proxies"
-
-- [ ] Flash latest raspbian on SD cards
-- [ ] install TinyGo dependencies
-- [ ] prepare for connecting to wifi at venue
