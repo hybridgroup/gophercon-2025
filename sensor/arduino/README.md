@@ -4,7 +4,7 @@
 
     - Arduino Nano RP2040 Connect IoT board
     - Grove IoT Starter Kit parts
-    - Personal computer with Go 1.22+ and TinyGo installed, and a serial port.
+    - Personal computer with Go 1.24+ and TinyGo installed, and a serial port.
 
 ### TinyGo drivers
 
@@ -245,7 +245,7 @@ Take a look at the code in the file `webserver.go`. A few things of note:
 You need to create unique values for your access point to not interfere with other people, so replace `myssid` and `mypass` for your WiFi setup, then flash the board with the following command:
 
 ```
-tinygo flash -target nano-rp2040 -ldflags="-X main.ssid=myssid -X main.pass=mypass" -stack-size 8kb ./step8/
+tinygo flash -target nano-rp2040 -ldflags="-X main.ssid=myssid -X main.pass=mypass" ./step8/
 ```
 
 #### How to tell if it is working
@@ -263,7 +263,7 @@ Now we will modify the web server so we can see the alarm system status on the w
 Remember to replace `myssid` and `mypass` for your WiFi setup, then flash the board with the following command:
 
 ```
-tinygo flash -target nano-rp2040 -ldflags="-X main.ssid=myssid -X main.pass=mypass" -stack-size 8kb ./step9/
+tinygo flash -target nano-rp2040 -ldflags="-X main.ssid=myssid -X main.pass=mypass" ./step9/
 ```
 
 #### How to tell if it is working
@@ -279,7 +279,7 @@ Now we will modify the web server so we can set the limit for the rotary dial to
 Remember to replace `myssid` and `mypass` for your WiFi setup, then flash the board with the following command:
 
 ```
-tinygo flash -target nano-rp2040 -ldflags="-X main.ssid=myssid -X main.pass=mypass" -stack-size 8kb ./step10/
+tinygo flash -target nano-rp2040 -ldflags="-X main.ssid=myssid -X main.pass=mypass" ./step10/
 ```
 
 #### How to tell if it is working
@@ -297,7 +297,7 @@ However, now instead of the Arduino acting as a wireless access point, we need t
 Substitute the correct values for your WiFi setup in the following command:
 
 ```
-tinygo flash -target nano-rp2040 -ldflags="-X main.ssid=TinyGoHackDay -X main.pass=community" -stack-size 8kb ./step8/
+tinygo flash -target nano-rp2040 -ldflags="-X main.ssid=TinyGoHackDay -X main.pass=community" ./step8/
 ```
 
 ## How to tell if it is working

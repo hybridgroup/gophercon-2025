@@ -32,7 +32,7 @@ First run some code to scan your local area for Bluetooth devices. This program 
 Run the code.
 
 ```shell
-tinygo flash -target nano-rp2040 -stack-size=8kb -monitor ./step1
+tinygo flash -target nano-rp2040 -monitor ./step1
 ```
 
 You will see output on your terminal. Each of the devices list is a Bluetooth device nearby that is advertising itself.
@@ -65,7 +65,7 @@ The TinyTerm package provides a terminal-style output on supported displays in t
 Run the code.
 
 ```shell
-tinygo flash -target nano-rp2040 -stack-size=8kb -monitor ./step2
+tinygo flash -target nano-rp2040 -monitor ./step2
 ```
 
 You will see the bluetooth scan output on both your monitor and on the SSD1306 display.
@@ -84,7 +84,7 @@ Run the code.
 Note that not all devices will allow you to connect to them, and that some that allow you to connect will not allow you to view the details of every service/characteristic.
 
 ```shell
-tinygo flash -target nano-rp2040 -stack-size=8kb -monitor -ldflags="-X main.DeviceAddress=[MAC address or Bluetooth ID goes here]" ./step3
+tinygo flash -target nano-rp2040 -monitor -ldflags="-X main.DeviceAddress=[MAC address or Bluetooth ID goes here]" ./step3
 ```
 
 ### step4.go - Bluetooth discover on nano-rp2040 display
@@ -94,7 +94,7 @@ This is the same Bluetooth service discovery as the previous example, but it als
 Run the code.
 
 ```shell
-tinygo flash -target nano-rp2040 -stack-size=8kb -monitor -ldflags="-X main.DeviceAddress=[MAC address or Bluetooth ID goes here]" ./step4
+tinygo flash -target nano-rp2040 -monitor -ldflags="-X main.DeviceAddress=[MAC address or Bluetooth ID goes here]" ./step4
 ```
 
 You should see the output on both your terminal, and also on the nano-rp2040 display.
@@ -120,7 +120,7 @@ go run ./tutorial/bluetooth/heartsim
 Run the code.
 
 ```shell
-tinygo flash -target nano-rp2040 -stack-size=8kb -monitor -ldflags="-X main.DeviceAddress=[MAC address or Bluetooth ID goes here]" ./step5
+tinygo flash -target nano-rp2040 -monitor -ldflags="-X main.DeviceAddress=[MAC address or Bluetooth ID goes here]" ./step5
 ```
 
 You can connect from the nano-rp2040 to your mobile phone or any other device/software that can produce the data from a standard Bluetooth heart rate device.
@@ -133,7 +133,7 @@ This is the same heart rate device as the previous example, but it also shows th
 Run the code.
 
 ```shell
-tinygo flash -target nano-rp2040 -stack-size=8kb -monitor -ldflags="-X main.DeviceAddress=[MAC address or Bluetooth ID goes here]" ./step6
+tinygo flash -target nano-rp2040 -monitor -ldflags="-X main.DeviceAddress=[MAC address or Bluetooth ID goes here]" ./step6
 ```
 
 ### step7.go - Bluetooth peripheral - advertising
@@ -145,7 +145,7 @@ The first step is just to make the Arduino advertise that it is ready to have so
 Run this to flash the code onto the Arduino. Make sure you change `yournamehere` to some short but unique name, so you do not get the device mixed up with someone else's device:
 
 ```shell
-tinygo flash -target nano-rp2040 -stack-size=8kb -ldflags="-X main.DeviceName='yournamehere'" ./step7
+tinygo flash -target nano-rp2040 -ldflags="-X main.DeviceName='yournamehere'" ./step7
 ```
 
 Once the code is running on the board, we can scan for it by running the code from step 1, but this time on your computer:
@@ -174,7 +174,7 @@ We are now ready to start sending heart rate data fro the board.
 Run this to flash the code onto the Arduino. Remember to change `yournamehere` again:
 
 ```shell
-tinygo flash -target nano-rp2040 -stack-size=8kb -ldflags="-X main.DeviceName='yournamehere'" ./step8
+tinygo flash -target nano-rp2040 -ldflags="-X main.DeviceName='yournamehere'" ./step8
 ```
 
 Once the code is running on the board, you can connect to it from any application that can read the standard heart rate sensor profile.
