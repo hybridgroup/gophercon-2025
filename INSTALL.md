@@ -9,9 +9,9 @@ git clone https://github.com/hybridgroup/gophercon-2025.git
 cd gophercon-2025
 ```
 
-## Install Go 1.25
+## Install Go 1.24+
 
-If somehow you have not installed Go 1.25 on your computer already, you can download it here:
+If somehow you have not installed Go 1.24+ on your computer already, you can download it here:
 
 https://go.dev/dl/
 
