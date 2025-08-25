@@ -6,23 +6,23 @@ import (
 	"strconv"
 	"time"
 
+	"tinygo.org/x/drivers/buzzer"
+	"tinygo.org/x/drivers/ssd1306"
 	"tinygo.org/x/tinydraw"
 	"tinygo.org/x/tinyfont"
 	"tinygo.org/x/tinyfont/freemono"
-	"tinygo.org/x/drivers/buzzer"
-	"tinygo.org/x/drivers/ssd1306"
 )
 
 var (
-	green = machine.D12
-	red = machine.D10
+	green  = machine.D12
+	red    = machine.D10
 	button = machine.D11
-	touch = machine.D9
+	touch  = machine.D9
 	bzrPin = machine.D8
 
-	bzr buzzer.Device
-	dial = machine.ADC{machine.ADC0}
-	pwm = machine.PWM2 // PWM2 corresponds to Pin D10.
+	bzr    buzzer.Device
+	dial   = machine.ADC{machine.ADC0}
+	pwm    = machine.PWM2 // PWM2 corresponds to Pin D10.
 	redPwm uint8
 
 	dialValue  uint16
@@ -103,18 +103,18 @@ func handleDisplay() {
 
 		val := strconv.Itoa(int(dialValue))
 		msg := "dial: " + val
-		tinyfont.WriteLine(&display, &freemono.Bold9pt7b, 10, 20, msg, black)
+		tinyfont.WriteLine(display, &freemono.Bold9pt7b, 10, 20, msg, black)
 
 		var radius int16 = 4
 		if buttonPush {
-			tinydraw.FilledCircle(&display, 16+32*0, 32-radius-1, radius, black)
+			tinydraw.FilledCircle(display, 16+32*0, 32-radius-1, radius, black)
 		} else {
-			tinydraw.Circle(&display, 16+32*0, 32-radius-1, radius, black)
+			tinydraw.Circle(display, 16+32*0, 32-radius-1, radius, black)
 		}
 		if touchPush {
-			tinydraw.FilledCircle(&display, 16+32*1, 32-radius-1, radius, black)
+			tinydraw.FilledCircle(display, 16+32*1, 32-radius-1, radius, black)
 		} else {
-			tinydraw.Circle(&display, 16+32*1, 32-radius-1, radius, black)
+			tinydraw.Circle(display, 16+32*1, 32-radius-1, radius, black)
 		}
 
 		display.Display()

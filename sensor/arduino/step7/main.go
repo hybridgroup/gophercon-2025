@@ -99,18 +99,18 @@ func handleDisplay() {
 
 		val := strconv.Itoa(int(dialValue))
 		msg := "dial: " + val
-		tinyfont.WriteLine(&display, &freemono.Bold9pt7b, 10, 20, msg, black)
+		tinyfont.WriteLine(display, &freemono.Bold9pt7b, 10, 20, msg, black)
 
 		var radius int16 = 4
 		if systemActive {
-			tinydraw.FilledCircle(&display, 16+32*0, 32-radius-1, radius, black)
+			tinydraw.FilledCircle(display, 16+32*0, 32-radius-1, radius, black)
 		} else {
-			tinydraw.Circle(&display, 16+32*0, 32-radius-1, radius, black)
+			tinydraw.Circle(display, 16+32*0, 32-radius-1, radius, black)
 		}
 		if alarmTriggered {
-			tinydraw.FilledCircle(&display, 16+32*1, 32-radius-1, radius, black)
+			tinydraw.FilledCircle(display, 16+32*1, 32-radius-1, radius, black)
 		} else {
-			tinydraw.Circle(&display, 16+32*1, 32-radius-1, radius, black)
+			tinydraw.Circle(display, 16+32*1, 32-radius-1, radius, black)
 		}
 
 		display.Display()
