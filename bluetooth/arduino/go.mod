@@ -6,7 +6,7 @@ toolchain go1.24.1
 
 require (
 	tinygo.org/x/bluetooth v0.12.0
-	tinygo.org/x/drivers v0.32.0
+	tinygo.org/x/drivers v0.33.0
 	tinygo.org/x/tinyfont v0.6.0
 	tinygo.org/x/tinyterm v0.5.0
 )
