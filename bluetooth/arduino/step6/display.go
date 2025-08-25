@@ -41,5 +41,5 @@ func initDisplay() tinyterm.Displayer {
 
 	display.ClearDisplay()
 
-	return &display
+	return display
 }
