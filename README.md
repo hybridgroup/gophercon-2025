@@ -6,7 +6,16 @@ The is the repository for the hardware hack session at Gophercon 2025.
 
 https://www.gophercon.com/
 
-### Please return all equipment when you are finished for the next person. Thank you!
+### Please return all borrowed equipment when you are finished for the next person. Thank you!
+
+## TinyGo Programmable Badges
+
+Did you bring your badge with you from a previous year? Flash it with the latest software!
+
+- [Badger2040-W](https://github.com/hybridgroup/badger2040)
+- [GoBadge](https://github.com/tinygo-org/gobadge)
+
+Do you want a TinyGo nametag or programmable badge? We have just a few with us today... Ask us!
 
 ## Installation
 
