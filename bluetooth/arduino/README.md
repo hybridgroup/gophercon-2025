@@ -1,6 +1,9 @@
 # Bluetooth Tutorial
+> [!CAUTION]
+>  This tutorial series ran into a bit of a problem with the display... if you'd like to help fix it, you could win a bounty!
 
 This series of tutorials is intended to help you learn about programming for Bluetooth using TinyGo and the TinyGo [Bluetooth package](https://github.com/tinygo-org/bluetooth)
+
 
 
 ## What you need
